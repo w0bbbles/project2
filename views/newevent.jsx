@@ -20,8 +20,9 @@ return (
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                   <a className="nav-item nav-link" href="/create">Create Event<span class="sr-only">(current)</span></a>
-                  <a className="nav-item nav-link" href="/jsx">name on nav bar</a>
-                  <a className="nav-item nav-link" href="/jsx">name on nav bar</a>
+                  <a className="nav-item nav-link" href="/register/new">Register</a>
+                  <a className="nav-item nav-link" href="/login/new">Log In</a>
+                  <a className="nav-item nav-link" href="/logout">Log Out</a>
                 </div>
               </div>
             </nav>
@@ -39,7 +40,7 @@ return (
 
                           <div class="form-group">
                             <label for="date">Date of Event</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YYYY" name="start_date" required/>
+                            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DD/MM/YYYY" name="start_date" required/>
                           </div>
 
                           <div class="form-group">
